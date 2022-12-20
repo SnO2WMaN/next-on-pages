@@ -12,7 +12,7 @@ Reference:
    Note that if you elect to use eslint, there are a couple of places you need to add return types to make the default template pass the pre-build checks.
 
    If you using yarn v3, run `yarn create next-app@latest my-app`
-   
+
    If you using pnpm, run `pnpx create-next-app@latest my-app`
 
 1. `cd` into the new directory (e.g. `cd my-app`)
@@ -83,6 +83,7 @@ Reference:
    | ---------------------- | ---------------------------------------------------------- |
    | Build command          | `pnpx dlx @cloudflare/next-on-pages --experimental-minify` |
    | Build output directory | `.vercel/output/static`                                    |
+
    <br>
 
 1. Add a `NODE_VERSION` environment variable set to `14` or greater.
